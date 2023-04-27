@@ -1,0 +1,32 @@
+.nav {
+
+}
+
+.nav__container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__link {
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 40px;
+    letter-spacing: 0.03em;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.nav__close_menu-btn {
+    display: none;
+}
+
+.nav__open_menu-icon {
+    display: none;
+    width: 50px;
+}

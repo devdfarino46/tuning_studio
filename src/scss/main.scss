@@ -1,0 +1,45 @@
+@import 'base/reset';
+@import 'base/fonts';
+@import 'base/colors';
+
+* {
+    font-family: 'ReformaGroteskC';
+    color: white;
+    line-height: 1.2;
+}
+
+body {
+    background-color: $backgroundColor;
+
+    &.noscrolling {
+        
+    }
+}
+
+.container {
+    max-width: 1248px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.rombs_decor {
+    width: 146px;
+}
+
+.slider-btn-icon {
+    display: block;
+    width: 70px;
+}
+
+@import 'components/header';
+@import 'components/nav';
+@import 'components/content';
+@import 'components/footer';
+
+
+@import 'media-queries/laptop';
+@import 'media-queries/tablet';
+@import 'media-queries/phone';
+@import 'components/nav-menu';

@@ -1,0 +1,22 @@
+.nav__links-wrapper--menu {
+
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0; bottom: 0; left: 0; right: 0;
+    background-color: $backgroundColor;
+    align-items: center;
+    justify-content: center;
+
+    row-gap: 40px;
+
+    .nav__link {
+        margin-right: 0;
+    }
+
+    .nav__close_menu-btn {
+        position: absolute;
+        display: block;
+        top: 40px; right: 24px;
+    }
+}

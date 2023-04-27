@@ -1,0 +1,318 @@
+doctype html
+html(lang="zxx")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="preload", as="font")
+        link(rel="stylesheet", href="css/main.css")
+        title Тюнинг ателье
+    body
+        header.header 
+            nav.nav 
+                .nav__container.container 
+                    .nav__links-wrapper--menu.nav__links-wrapper
+                        button.nav__close_menu-btn 
+                            img.nav__close_menu-icon(src="img/svg/open-menu.svg", alt="Открыть меню")
+                        a.nav__link(href="#") Главная
+                        a.nav__link(href="#") Оклейка автомобилей
+                        a.nav__link(href="#") Детейлинг автомобилей
+                        a.nav__link(href="#") Галерея работ
+                    .nav__open_menu-wrapper 
+                        button.nav__open_menu-btn
+                            img.nav__open_menu-icon(src="img/svg/open-menu.svg", alt="Открыть меню")
+
+            .header__container.container 
+                h1.header__title CAR MUSC 
+                img.header__rombs_decor.rombs_decor(src="img/svg/rombs.svg", alt="")
+                p.headr__descr
+                    | Lorem ipsum dolor sit amet, consectetur 
+                    | adipiscing elit. Vitae orci urna amet penatibus.
+                h2.header__topic_title
+                    span Наши услуги
+
+            .header__contacts-wrapper 
+                .header__contact-wrapper
+                    p.header__contact-list-name адрес:
+                    ul.header__contact-list 
+                        li.header__contact-item Lorem ipsum dolor sit amet, consectetur adipiscing elit 
+                .header__contact-wrapper
+                    p.header__contact-list-name телефон:
+                    ul.header__contact-list 
+                        li.header__contact-item 8 (812) 123-45-67
+                        li.header__contact-item 8-911-123-45-67
+                .header__contact-wrapper
+                    p.header__contact-list-name Режим работы:
+                    ul.header__contact-list 
+                        li.header__contact-item пн-пт : 10:00 - 20:00
+                        li.header__contact-item сб-вск : 12:00 - 20:00
+
+        main.content 
+            .content__achievements-section 
+                .content__achievments-container.container 
+                    .content__achievenents-text-wrapper 
+                        h2.content__achievements-title наши достижения от кубка россии до чемпионатов мира
+                        img.content__achievements-rombs_decor.rombs_decor(src="img/svg/rombs.svg", alt="")
+                        p.content__achievemnts-descr
+                            | Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            | Habitant tincidunt aliquam tincidunt pretium sodales. 
+                            | Tristique odio pellentesque et tincidunt posuere arcu 
+                            | purus lobortis risus. Urna, ut amet odio orci magnis 
+                            | praesent ultrices. Praesent malesuada lacus tellus 
+                            | tristique sit at. Sed viverra nulla nam arcu, 
+                            | non iaculis pretium, volutpat.
+                    .content__achievments-items-wrapper
+                        .content__achievments-items-column 
+                            .content__achievment-item
+                                p.content__achievment-number
+                                    | #[span.content__achievment-number-first_symbol #]1
+                                .content__achievment-descr
+                                    | Lorem ipsum dolor sit amet, 
+                                    | consectetur adipiscing elit. Quisque dui
+                            .content__achievment-item
+                                p.content__achievment-number
+                                    | #[span.content__achievment-number-first_symbol #]6
+                                .content__achievment-descr
+                                    | Lorem ipsum dolor sit amet, 
+                                    | consectetur adipiscing elit. Quisque dui
+                            .content__achievment-item
+                                p.content__achievment-number
+                                    | #[span.content__achievment-number-first_symbol #]2
+                                .content__achievment-descr
+                                    | Lorem ipsum dolor sit amet, 
+                                    | consectetur adipiscing elit. Quisque dui
+                            .content__achievment-item
+                                p.content__achievment-number
+                                    | #[span.content__achievment-number-first_symbol #]1
+                                .content__achievment-descr
+                                    | Lorem ipsum dolor sit amet, 
+                                    | consectetur adipiscing elit. Quisque dui
+                        .content__achievments-items-column 
+                            .content__achievment-item
+                                p.content__achievment-number
+                                    | #[span.content__achievment-number-first_symbol #]4
+                                .content__achievment-descr
+                                    | Lorem ipsum dolor sit amet, 
+                                    | consectetur adipiscing elit. Quisque dui
+                            .content__achievment-item
+                                p.content__achievment-number
+                                    | #[span.content__achievment-number-first_symbol #]3
+                                .content__achievment-descr
+                                    | Lorem ipsum dolor sit amet, 
+                                    | consectetur adipiscing elit. Quisque dui
+                            .content__achievment-item
+                                p.content__achievment-number
+                                    | #[span.content__achievment-number-first_symbol #]1
+                                .content__achievment-descr
+                                    | Lorem ipsum dolor sit amet, 
+                                    | consectetur adipiscing elit. Quisque dui
+                            .content__achievment-item
+                                img.content__achievment-img(src="img/svg/cup.svg", alt="")
+                                .content__achievment-descr
+                                    | Lorem ipsum dolor sit amet, 
+                                    | consectetur adipiscing elit. Quisque dui
+                        
+            .content__slider-section
+                .content__slider-container.container
+                    button.content__slider-prev-btn-absolute_pos.content__slider-prev-btn.content__slider-btn
+                        img.slider-btn-icon(src="img/svg/prev.svg", alt="")
+                    
+                    .content__slider-wrapper
+                        .content__slider-item
+                            .content__slider-item-img(style="background-image: url(img/slider/1.jpg);")
+                            p.content__slider-item-descr
+                                span 
+                                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    | Cras vulputate laoreet sapien a sit ante.
+                        .content__slider-item
+                            .content__slider-item-img(style="background-image: url(img/slider/2.jpg);")
+                            p.content__slider-item-descr
+                                span 
+                                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    | Cras vulputate laoreet sapien a sit ante.
+                        .content__slider-item
+                            .content__slider-item-img(style="background-image: url(img/slider/3.jpg);")
+                            p.content__slider-item-descr
+                                span 
+                                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    | Cras vulputate laoreet sapien a sit ante.
+                    
+                    button.content__slider-next-btn-absolute_pos.content__slider-next-btn.content__slider-btn
+                        img.slider-btn-icon(src="img/svg/next.svg", alt="")
+
+                    .content__slider-btns-wrapper
+                        button.content__slider-prev-btn.content__slider-btn
+                            img.slider-btn-icon(src="img/svg/prev.svg", alt="")
+                        button.content__slider-next-btn.content__slider-btn
+                            img.slider-btn-icon(src="img/svg/next.svg", alt="")
+
+            .content__advantager-section
+                .content__advantager-container.container
+                    .content__advantager-text-wrapper 
+                        .content__advantager-item
+                            p.content__advantager-item-name-wrapper
+                                img.content__advantager-item-icon(src="img/svg/materials.svg", alt="")
+                                span.content__advantager-item-name материалы от лучших компаний
+                            .content__advantager-item-descr
+                                | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium, 
+                                | rutrum est, molestie proin tristique duis sed. Morbi suspendisse 
+                                | amet nisl vestibulum risus. Quis pretium
+                        img.content__advantager-rombs_decor.rombs_decor(src="img/svg/rombs.svg", alt="")
+                        .content__advantager-item
+                            p.content__advantager-item-name-wrapper
+                                img.content__advantager-item-icon(src="img/svg/design.svg", alt="")
+                                span.content__advantager-item-name Опытные мастера
+                            .content__advantager-item-descr
+                                | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et donec 
+                                | elementum egestas vitae ullamcorper. Amet volutpat ornare pharetra 
+                                | amet adipiscing orci, lectus aenean ultricies. Erat viverra eget 
+                                | blandit ornare. Molestie ipsum commodo faucibus rhoncus
+                        img.content__advantager-rombs_decor.rombs_decor(src="img/svg/rombs.svg", alt="")
+                        .content__advantager-item
+                            p.content__advantager-item-name-wrapper
+                                img.content__advantager-item-icon(src="img/svg/interior-pasting.svg", alt="")
+                                span.content__advantager-item-name Гарантия на все виды работы
+                            .content__advantager-item-descr
+                                | Lorem ipsum dolor sit amet, consectetur 
+                                | adipiscing elit. Vestibulum volutpat.
+                    .content__advantager-slider-wripper 
+                        .content__advantager-slider-img(style="background-image: url(img/advantager/car1.jpg)")
+                        .content__advantager-slider-descr-wrapper 
+                            button.content__advantager-slider-prev-btn.content__advantager-slider-btn
+                                img.slider-btn-icon(src="img/svg/prev.svg", alt="")
+                            p.content__advantager-slider-descr
+                                | Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                | Pellentesque auctor nibh feugiat est. Consectetur lectus.
+                            button.content__advantager-slider-next-btn.content__advantager-slider-btn
+                                img.slider-btn-icon(src="img/svg/next.svg", alt="")
+
+            section.content__services-section
+                .content__services-container.container
+                    h3.content__secrvices-title Наши услуги
+                    img.content__sservices-rombs_decor.rombs_decor(src="img/svg/rombs.svg", alt="")
+                    .content__services-tab-wrapper
+                        .content__services-tab-btns-wrapper
+                            button.content__services-tab-btn.content__services-tab-btn--active Оклейка
+                            button.content__services-tab-btn Детейлинг
+
+                        .content__services-tab-items-wrapper
+                            .content__services-tab-item
+                                img.content__services-tab-item-icon(src="img/svg/screen-protectors.svg", alt="")
+                                p.content__services-tab-item-name Защитные пленки
+                                p.content__services-tab-item-descr
+                                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    | Nascetur ultrices pellentesque vulputate sit. Ut feugiat.
+                                button.content__services-tab-item-learn_more-btn
+                                    span Подробнее
+                            .content__services-tab-item
+                                img.content__services-tab-item-icon(src="img/svg/materials.svg", alt="")
+                                p.content__services-tab-item-name Защитные пленки
+                                p.content__services-tab-item-descr
+                                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    | Nascetur ultrices pellentesque vulputate sit. Ut feugiat.
+                                button.content__services-tab-item-learn_more-btn
+                                    span Подробнее
+                            .content__services-tab-item
+                                img.content__services-tab-item-icon(src="img/svg/design.svg", alt="")
+                                p.content__services-tab-item-name Защитные пленки
+                                p.content__services-tab-item-descr
+                                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    | Nascetur ultrices pellentesque vulputate sit. Ut feugiat.
+                                button.content__services-tab-item-learn_more-btn
+                                    span Подробнее
+                            .content__services-tab-item
+                                img.content__services-tab-item-icon(src="img/svg/interior-pasting.svg", alt="")
+                                p.content__services-tab-item-name Защитные пленки
+                                p.content__services-tab-item-descr
+                                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    | Nascetur ultrices pellentesque vulputate sit. Ut feugiat.
+                                button.content__services-tab-item-learn_more-btn
+                                    span Подробнее
+                            
+            .content__advantager-section
+                .content__advantager-container.container
+                    
+                    .content__advantager-slider-wripper 
+                        .content__advantager-slider-img(style="background-image: url(img/advantager//car2.jpg)")
+                        .content__advantager-slider-descr-wrapper 
+                            button.content__advantager-slider-prev-btn.content__advantager-slider-btn
+                                img.slider-btn-icon(src="img/svg/prev.svg", alt="")
+                            p.content__advantager-slider-descr
+                                | Neque metus vitae urna purus aliquam. Felis nullam 
+                                | pellentesque ac mi commodo, amet, porta in. Dui.
+                            button.content__advantager-slider-next-btn.content__advantager-slider-btn
+                                img.slider-btn-icon(src="img/svg/next.svg", alt="")
+                    
+                    .content__advantager-text-wrapper 
+                        .content__advantager-item
+                            p.content__advantager-item-name-wrapper
+                                img.content__advantager-item-icon(src="img/svg/materials.svg", alt="")
+                                span.content__advantager-item-name 100% полироль axem
+                            .content__advantager-item-descr
+                                | Pharetra in bibendum id id. Sit maecenas sollicitudin est, 
+                                | hendrerit in malesuada. Eu, et lacus nisi mus sagittis, rhoncus 
+                                | est dictum. Gravida lectus urna, arcu, sodales. Ac.
+                        img.content__advantager-rombs_decor.rombs_decor(src="img/svg/rombs.svg", alt="")
+                        .content__advantager-item
+                            p.content__advantager-item-name-wrapper
+                                img.content__advantager-item-icon(src="img/svg/design.svg", alt="")
+                                span.content__advantager-item-name выполняем работу четко по тз
+                            .content__advantager-item-descr
+                                | Lorem nulla non nibh quis elit odio. Dui et ultricies duis mattis 
+                                | dictum et senectus nunc sodales. Tellus lorem risus etiam quam 
+                                | massa lobortis convallis laoreet. Nec.
+                        img.content__advantager-rombs_decor.rombs_decor(src="img/svg/rombs.svg", alt="")
+                        .content__advantager-item
+                            p.content__advantager-item-name-wrapper
+                                img.content__advantager-item-icon(src="img/svg/interior-pasting.svg", alt="")
+                                span.content__advantager-item-name у нас лучшие мастера
+                            .content__advantager-item-descr
+                                | Posuere nam sodales ullamcorper bibendum justo maecenas at. Ultricies 
+                                | bibendum morbi tempor vehicula. Ultrices erat maecenas in id 
+                                | maecenas sed ipsum scelerisque. 
+
+        footer.footer
+            form.footer__form-container.container(action="/") 
+                h3.footer__form-title ответим на любой вопрос
+                img.footer__form-rombs_decor.rombs_decor(src="img/svg/rombs.svg", alt="")
+                .footer__form-wrapper
+                    .footer__form-inputs-inline-wrapper
+                        input.footer__form-input-inline.footer__form-input(type="text" placeholder="Имя")
+                        input.footer__form-input-inline.footer__form-input(type="text" placeholder="телефон")
+                    .footer__form-textarea-wrapper
+                        textarea.footer__form-textarea.footer__form-input(placeholder="Вопрос по дизайну, тюнингу и др.")
+                        .footer__form-social-links-wrapper
+                            a.footer__form-social-link(href="#")
+                                img.footer__form-social-icon(src="img/svg/telegram.svg", alt="")
+                            a.footer__form-social-link(href="#")
+                                img.footer__form-social-icon(src="img/svg/youtube.svg", alt="")
+                            a.footer__form-social-link(href="#")
+                                img.footer__form-social-icon(src="img/svg/vk.svg", alt="")
+                    .footer__form-submit-btn-wrapper 
+                        button.footer__form-submit-btn(type="submit")
+                            span отправить
+                        .footer__form-contacts-wrapper 
+                            p.footer_form-contact
+                                img.footer_form-contact-icon(src="img/svg/location.svg", alt="")
+                                span.footer_form-contact-span Eu faucibus et rutrum fringilla orci nunc
+                            .footer__form-contacts-inline-wrapper
+                                a.footer_form-contact(href="tel:88121234567")
+                                    img.footer_form-contact-icon(src="img/svg/phone.svg", alt="")
+                                    span.footer_form-contact-span 8 (812) 123-45-67
+                                a.footer_form-contact(href="mailto:test@test.ru")
+                                    img.footer_form-contact-icon(src="img/svg/mail.svg", alt="")
+                                    span.footer_form-contact-span test@test.ru
+                                
+            .footer__bottom
+                .footer__bottom-container.container
+                    p.footer__bottom-copyright
+                        | 2022 © Est et viverra pellentesque pharetra lorem 
+                        | proin in. Vitae magna at tempus commodo.
+                    nav.footer__bottom-nav-links-wrapper
+                        a.footer__bottom-nav-link(href="#") Главная
+                        a.footer__bottom-nav-link(href="#") Оклейка автомобилей
+                        a.footer__bottom-nav-link(href="#") Детейлинг автомобилей
+                        a.footer__bottom-nav-link(href="#") Галерея работ
+
+
+        script(src="js/main.js") 

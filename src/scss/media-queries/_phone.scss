@@ -1,0 +1,98 @@
+@media screen and (max-width: 760px) {
+
+    // Nav
+    .nav__links-wrapper {
+        display: none;
+    }
+
+    .nav__container {
+        justify-content: flex-end;
+    }
+
+    .nav__open_menu-icon {
+        display: block;
+    }
+
+
+    // Header
+    .header__contacts-wrapper {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        width: max-content;
+        align-items: center;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header__contact-wrapper {
+         &:last-child {
+            border-right: 1px solid $borderColor;
+         }
+         &:first-child {
+            border-left: 1px solid $borderColor;
+         }
+
+         align-self: stretch;
+    }
+
+
+    // Content Achievents
+    .content__achievments-container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+
+    // Content Services
+    .content__services-tab-btn:not(.content__services-tab-btn:last-child) {
+        margin-right: 15px;
+    }
+
+    .content__services-tab-items-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content__services-tab-btn {
+        padding: 10px 20px;
+    }
+
+
+    // Content Slider
+    .content__slider-container {
+        width: fit-content;
+    }
+
+
+    // Footer
+    .footer__form-inputs-inline-wrapper {
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+    }
+
+    .footer__form-submit-btn-wrapper {
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+    }
+
+    .footer__form-contacts-wrapper {
+        align-items: flex-end;
+        row-gap: 15px;
+    }
+
+    .footer__bottom-copyright {
+        text-align: center;
+    }
+
+    .footer__bottom-nav-links-wrapper {
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+}
