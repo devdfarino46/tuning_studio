@@ -10,10 +10,10 @@
 
 body {
     background-color: $backgroundColor;
+}
 
-    &.noscrolling {
-        
-    }
+body.noscrolling {
+    overflow: hidden;
 }
 
 .container {
@@ -33,13 +33,18 @@ body {
     width: 70px;
 }
 
+// Components
 @import 'components/header';
 @import 'components/nav';
 @import 'components/content';
 @import 'components/footer';
 
-
+// Media queries
 @import 'media-queries/laptop';
 @import 'media-queries/tablet';
 @import 'media-queries/phone';
-@import 'components/nav-menu';
+@import 'components/nav-menu'; // If screen of phone
+
+// Utils
+@import 'utils/state';
+@import 'utils/animations';

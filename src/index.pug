@@ -11,7 +11,7 @@ html(lang="zxx")
         header.header 
             nav.nav 
                 .nav__container.container 
-                    .nav__links-wrapper--menu.nav__links-wrapper
+                    .nav__links-wrapper
                         button.nav__close_menu-btn 
                             img.nav__close_menu-icon(src="img/svg/open-menu.svg", alt="Открыть меню")
                         a.nav__link(href="#") Главная
@@ -292,16 +292,16 @@ html(lang="zxx")
                         button.footer__form-submit-btn(type="submit")
                             span отправить
                         .footer__form-contacts-wrapper 
-                            p.footer_form-contact
-                                img.footer_form-contact-icon(src="img/svg/location.svg", alt="")
-                                span.footer_form-contact-span Eu faucibus et rutrum fringilla orci nunc
+                            p.footer__form-contact
+                                img.footer__form-contact-icon(src="img/svg/location.svg", alt="")
+                                span.footer__form-contact-span Eu faucibus et rutrum fringilla orci nunc
                             .footer__form-contacts-inline-wrapper
-                                a.footer_form-contact(href="tel:88121234567")
-                                    img.footer_form-contact-icon(src="img/svg/phone.svg", alt="")
-                                    span.footer_form-contact-span 8 (812) 123-45-67
-                                a.footer_form-contact(href="mailto:test@test.ru")
-                                    img.footer_form-contact-icon(src="img/svg/mail.svg", alt="")
-                                    span.footer_form-contact-span test@test.ru
+                                p.footer__form-contact
+                                    img.footer__form-contact-icon(src="img/svg/phone.svg", alt="")
+                                    span.footer__form-contact-span 8 (812) 123-45-67
+                                p.footer__form-contact
+                                    img.footer__form-contact-icon(src="img/svg/mail.svg", alt="")
+                                    span.footer__form-contact-span test@test.ru
                                 
             .footer__bottom
                 .footer__bottom-container.container

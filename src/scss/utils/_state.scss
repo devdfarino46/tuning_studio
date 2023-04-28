@@ -1,0 +1,36 @@
+.nav__link:hover {
+    color: $primaryColor;
+}
+
+.content__services-tab-btn:hover {
+    background-color: $primaryColor;
+}
+
+.content__services-tab-item-learn_more-btn:hover {
+    &::before {
+        width: calc(100% + 20px);
+    }
+}
+
+.footer__form-input:focus {
+    border-color: $primaryColor;
+
+    &::placeholder {
+        color: white;
+    }
+}
+
+.footer__form-social-link:hover {
+    background-color: $primaryColor;
+    border-color: $primaryColor;
+}
+
+.footer__form-submit-btn:hover {
+    &::before {
+        width: calc(100% + 25px);
+    }
+}
+
+.footer__bottom-nav-link:hover {
+    color: $primaryColor;
+}

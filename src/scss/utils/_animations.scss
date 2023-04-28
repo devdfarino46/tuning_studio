@@ -1,0 +1,31 @@
+.nav__link {
+    transition: color ease-in-out 0.3s;
+}
+
+.content__services-tab-btn {
+    transition: background-color ease-in-out 0.3s;
+}
+
+.content__services-tab-item-learn_more-btn::before {
+    transition: width ease-in-out 0.3s;
+}
+
+.footer__form-input {
+    transition: border-color ease-in-out 0.3s;
+}
+
+.footer__form-input::placeholder {
+    transition: color ease-in-out 0.3s;
+}
+
+.footer__form-social-link {
+    transition: border-color, background-color ease-in-out 0.3s;
+}
+
+.footer__form-submit-btn::before {
+    transition: width ease-in-out 0.3s;
+}
+
+.footer__bottom-nav-link {
+    transition: color ease-in-out 0.3s;
+}
