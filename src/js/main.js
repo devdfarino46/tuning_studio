@@ -11,3 +11,7 @@ openMenuBtn.addEventListener('click', function() {
     menuElem.classList.add('nav__links-wrapper--menu');
     document.body.classList.add('noscrolling');
 });
+
+
+require('./_slider');
+require('./_advantager-slider');

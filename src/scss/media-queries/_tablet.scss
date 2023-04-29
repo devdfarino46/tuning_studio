@@ -1,6 +1,9 @@
 @media screen and (max-width: 940px) {
-    .content__slider-item:nth-child(n+2) {
-        display: none;
+    .content__slider-container {
+        max-width: 400px;
     }
 
+    .content__slider-wrapper {
+        grid-auto-columns: 100%;
+    }
 }

@@ -6,7 +6,9 @@ const autoprefixer = require('gulp-autoprefixer');
 const pug = require('gulp-pug');
 const cleanCSS = require('gulp-clean-css');
 const imagemin = require('gulp-imagemin');
-const babel = require('gulp-babel');
+const browserify = require('browserify');
+const babelify = require('babelify');
+const source = require('vinyl-source-stream');
 
 
 function browsersync() {
@@ -36,24 +38,21 @@ function styles() {
 }
 
 function pages() {
-    return src("src/*.pug")
+    return src(["src/*.pug"])
         .pipe(pug())
         .pipe(dest("dist/"))
         .pipe(browserSync.stream());
 }
 
 function scripts() {
-    return src("src/js/**/*.js")
-        .pipe(babel({
-            presets: [
-                "@babel/preset-env",
-                {
-                    "compact": true,
-                }
-            ]
-        }))
-        .pipe(dest('dist/js/'))
-        .pipe(browserSync.stream());
+    return browserify({
+        entries: ['./src/js/main.js'],
+        debug: true,
+        transform: [babelify.configure({ presets: ['@babel/preset-env'] })]
+    })
+        .bundle()
+        .pipe(source('main.js'))
+        .pipe(dest('dist/js'));
 }
 
 function optimizeImages() {

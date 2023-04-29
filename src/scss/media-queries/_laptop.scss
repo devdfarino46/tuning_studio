@@ -1,16 +1,3 @@
-@media screen and (max-width: 1624px) {
-    .content__slider-prev-btn-absolute_pos,
-    .content__slider-next-btn-absolute_pos {
-        display: none;
-    }
-
-    .content__slider-btns-wrapper {
-        display: flex;
-        
-    }
-}
-
-
 @media screen and (max-width: 1080px) {
 
     // Content Advantager
@@ -23,12 +10,8 @@
 
 
     // Content Slider
-    .content__slider-container {
-        width: max-content;
-    }
-
-    .content__slider-item:nth-child(n+3) {
-        display: none;
+    .content__slider-wrapper {
+        grid-auto-columns: calc( (100% - 24px) / 2 );
     }
 
 
